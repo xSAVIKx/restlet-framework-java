@@ -33,6 +33,7 @@
     </repositories>
 
     <properties>
+        <release>false</release>
         <java.version>1.8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -342,6 +343,7 @@
                                     <rules>
                                         <CheckMavenCentral implementation="org.kordamp.maven.enforcer.checker.CheckMavenCentral">
                                             <strict>false</strict>
+                                            <release>${release}</release>
                                         </CheckMavenCentral>
                                         <requireJavaVersion>
                                             <version>${java.version}</version>
@@ -393,6 +395,15 @@
             <url>https://opensource.org/license/epl-1-0/</url>
         </license>
     </licenses>
+
+    <developers>
+        <developer>
+            <name>Yurii Serhiichuk</name>
+            <email>savik[at]gmail.com</email>
+            <id>xsavikx</id>
+            <url>https://github.com/xSAVIKx</url>
+        </developer>
+    </developers>
 
     <build>
         <resources>
