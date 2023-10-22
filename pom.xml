@@ -389,10 +389,12 @@
         <license>
             <name>Apache 2.0 license</name>
             <url>https://opensource.org/license/apache-2-0/</url>
+            <distribution>repo</distribution>
         </license>
         <license>
             <name>EPL 1.0 license</name>
             <url>https://opensource.org/license/epl-1-0/</url>
+            <distribution>repo</distribution>
         </license>
     </licenses>
 
