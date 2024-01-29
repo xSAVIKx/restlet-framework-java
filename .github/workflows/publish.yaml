@@ -10,7 +10,7 @@ concurrency:
 env:
   JAVA_VERSION: 8
 jobs:
-  publish:
+  publish-gh-packages:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK ${{ env.JAVA_VERSION }} for publishing to GitHub Packages
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: ${{ env.JAVA_VERSION }}
@@ -31,9 +31,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.MAVEN_GPG_PASSPHRASE }}
-
+  publish-ossrh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
       - name: Set up JDK ${{ env.JAVA_VERSION }} for publishing to Maven Central Repository
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: ${{ env.JAVA_VERSION }}
