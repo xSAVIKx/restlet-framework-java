@@ -108,7 +108,7 @@
         <swagger.version>1.5.3-M1</swagger.version>
         <testng.version>6.8.7</testng.version>
         <thymeleaf.version>2.1.6.RELEASE</thymeleaf.version>
-        <tika.version>1.18</tika.version>
+        <tika.version>1.28.5</tika.version>
         <velocity.version>2.3</velocity.version>
         <woodstock-core.version>4.3.0</woodstock-core.version>
     </properties>
