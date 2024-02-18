@@ -106,7 +106,7 @@
         <spring.version>3.2.18.RELEASE</spring.version>
         <stax2.version>3.1.4</stax2.version>
         <swagger.version>1.5.3-M1</swagger.version>
-        <testng.version>6.8.7</testng.version>
+        <testng.version>7.5.1</testng.version>
         <thymeleaf.version>2.1.6.RELEASE</thymeleaf.version>
         <tika.version>1.28.5</tika.version>
         <velocity.version>2.3</velocity.version>
@@ -384,17 +384,18 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.core</artifactId>
-            <version>4.0.0</version>
+            <version>${osgi.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.compendium</artifactId>
-            <version>4.0.0</version>
+            <version>${osgi.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
