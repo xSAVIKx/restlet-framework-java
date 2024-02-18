@@ -29,37 +29,37 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>${lib-io-version}</version>
+            <version>${io.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
-            <version>${lib-lucene-version}</version>
+            <version>${lucene.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-core</artifactId>
-            <version>${lib-solr-version}</version>
+            <version>${solr.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-solrj</artifactId>
-            <version>${lib-solr-version}</version>
+            <version>${solr.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-core</artifactId>
-            <version>${lib-tika-version}</version>
+            <version>${tika.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-parsers</artifactId>
-            <version>${lib-tika-version}</version>
+            <version>${tika.version}</version>
 
         </dependency>
     </dependencies>

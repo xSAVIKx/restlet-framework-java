@@ -17,55 +17,55 @@
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
-            <version>${lib-fileupload-version}</version>
+            <version>${fileupload.version}</version>
 
         </dependency>
         <dependency>
             <groupId>javax.mail</groupId>
             <artifactId>mail</artifactId>
-            <version>${lib-javamail-version}</version>
+            <version>${javamail.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-impl</artifactId>
-            <version>${lib-jaxb-ri-version}</version>
+            <version>${jaxb-ri.version}</version>
 
         </dependency>
         <dependency>
             <groupId>javax.ws.rs</groupId>
             <artifactId>jsr311-api</artifactId>
-            <version>${lib-jsr311-version}</version>
+            <version>${jsr311.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>${lib-json-version}</version>
+            <version>${json.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>${lib-lang-version}</version>
+            <version>${lang.version}</version>
 
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>${lib-servlet-version}</version>
+            <version>${servlet.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.simpleframework</groupId>
             <artifactId>simple-xml</artifactId>
-            <version>${lib-simple-xml-version}</version>
+            <version>${simple-xml.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-jaxrs</artifactId>
-            <version>${lib-resteasy-version}</version>
+            <version>${resteasy.version}</version>
 
         </dependency>
         <dependency>

@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>org.jibx</groupId>
 			<artifactId>jibx-run</artifactId>
-			<version>${lib-jibx-version}</version>
+			<version>${jibx.version}</version>
 				
 		</dependency>
 		<dependency>

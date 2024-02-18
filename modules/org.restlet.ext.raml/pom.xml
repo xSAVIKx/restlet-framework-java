@@ -17,67 +17,67 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>${lib-slf4j-version}</version>
+            <version>${slf4j.version}</version>
 
         </dependency>
         <dependency>
             <groupId>org.raml</groupId>
             <artifactId>raml-parser</artifactId>
-            <version>${lib-raml-version}</version>
+            <version>${raml.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
-            <version>${lib-jackson-version}</version>
+            <version>${jackson.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-annotations</artifactId>
-            <version>${lib-jackson-version}</version>
+            <version>${jackson.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>${lib-jackson-version}</version>
+            <version>${jackson.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-csv</artifactId>
-            <version>${lib-jackson-version}</version>
+            <version>${jackson.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-smile</artifactId>
-            <version>${lib-jackson-version}</version>
+            <version>${jackson.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-xml</artifactId>
-            <version>${lib-jackson-version}</version>
+            <version>${jackson.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-yaml</artifactId>
-            <version>${lib-jackson-version}</version>
+            <version>${jackson.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-jaxb-annotations</artifactId>
-            <version>${lib-jackson-version}</version>
+            <version>${jackson.version}</version>
 
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
             <artifactId>jackson-module-jsonSchema</artifactId>
-            <version>${lib-jackson-version}</version>
+            <version>${jackson.version}</version>
 
         </dependency>
         <dependency>

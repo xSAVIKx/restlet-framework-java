@@ -18,37 +18,37 @@
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
-			<version>${lib-codec-version}</version>
+			<version>${codec.version}</version>
 				
 		</dependency>
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
-			<version>${lib-json-version}</version>
+			<version>${json.version}</version>
 				
 		</dependency>
 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
-			<version>${lib-dbcp-version}</version>
+			<version>${dbcp.version}</version>
 				
 		</dependency>
 		<dependency>
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
-			<version>${lib-freemarker-version}</version>
+			<version>${freemarker.version}</version>
 				
 		</dependency>
 		<dependency>
 			<groupId>net.oauth.core</groupId>
 			<artifactId>oauth</artifactId>
-			<version>${lib-oauth-version}</version>
+			<version>${oauth.version}</version>
 				
 		</dependency>
 		<dependency>
 			<groupId>commons-pool</groupId>
 			<artifactId>commons-pool</artifactId>
-			<version>${lib-pool-version}</version>
+			<version>${pool.version}</version>
 				
 		</dependency>
 		<dependency>

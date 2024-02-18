@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>org.simpleframework</groupId>
 			<artifactId>simple</artifactId>
-			<version>${lib-simple-version}</version>
+			<version>${simple.version}</version>
 				
 		</dependency>
 		<dependency>

@@ -17,19 +17,19 @@
 		<dependency>
 			<groupId>com.google.inject</groupId>
 			<artifactId>guice</artifactId>
-			<version>${lib-guice-version}</version>
+			<version>${guice.version}</version>
 				
 		</dependency>
 		<dependency>
 			<groupId>javax.inject</groupId>
 			<artifactId>javax.inject</artifactId>
-			<version>${lib-javax-inject-version}</version>
+			<version>${javax-inject.version}</version>
 				
 		</dependency>
 		<dependency>
 			<groupId>aopalliance</groupId>
 			<artifactId>aopalliance</artifactId>
-			<version>${lib-aopalliance-version}</version>
+			<version>${aopalliance.version}</version>
 				
 		</dependency>
 		<dependency>

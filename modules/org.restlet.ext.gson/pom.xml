@@ -17,13 +17,13 @@
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
-			<version>${lib-gson-version}</version>
+			<version>${gson.version}</version>
 				
 		</dependency>
 		<dependency>
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>
-			<version>${lib-joda-time-version}</version>
+			<version>${joda-time.version}</version>
 				
 		</dependency>
 		<dependency>
