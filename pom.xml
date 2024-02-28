@@ -79,7 +79,7 @@
         <json4s.version>3.2.4</json4s.version>
         <json.version>20240205</json.version>
         <jsslutils.version>1.0.5</jsslutils.version>
-        <junit.version>4.13.2</junit.version>
+        <junit.version>4.13.1</junit.version>
         <lang.version>3.14.0</lang.version>
         <log4j.version>1.2.17</log4j.version>
         <logging.version>1.3.0</logging.version>
