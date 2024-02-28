@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>io.github.xsavikx</groupId>
 		<artifactId>org.restlet.parent</artifactId>
-		<version>2.4.4</version>
+		<version>2.5.0-SNAPSHOT</version>
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
 
@@ -17,19 +17,19 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
-			<version>${lib-servlet-version}</version>
+			<version>${servlet.version}</version>
 				<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
-			<version>${lib-fileupload-version}</version>
+			<version>${fileupload.version}</version>
 				
 		</dependency>
 		<dependency>
 			<groupId>io.github.xsavikx</groupId>
 			<artifactId>org.restlet</artifactId>
-			<version>2.4.4</version>
+			<version>2.5.0-SNAPSHOT</version>
 			
 		</dependency>
 	</dependencies>

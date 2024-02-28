@@ -5,7 +5,7 @@
 
     <groupId>io.github.xsavikx</groupId>
     <artifactId>org.restlet.parent</artifactId>
-    <version>2.4.4</version>
+    <version>2.5.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Restlet project (revamp)</name>
@@ -41,76 +41,76 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <javadoc.opts>-Xdoclint:none</javadoc.opts>
 
-        <lib-aopalliance-version>1.0</lib-aopalliance-version>
-        <lib-bloat-version>1.0</lib-bloat-version>
-        <lib-cglib-version>2.2</lib-cglib-version>
-        <lib-codec-version>1.5</lib-codec-version>
-        <lib-commons-collections-version>3.2.2</lib-commons-collections-version>
-        <lib-dbcp-version>1.3</lib-dbcp-version>
-        <lib-e4-version>0.12.RC1</lib-e4-version>
-        <lib-emf-version>2.6.0.v20100614-1136</lib-emf-version>
-        <lib-emf-ecore-xmi-version>2.5.0.v20100521-1846</lib-emf-ecore-xmi-version>
-        <lib-fileupload-version>1.3.3</lib-fileupload-version>
-        <lib-freemarker-version>2.3.20</lib-freemarker-version>
-        <lib-gappengine-version>1.9.57</lib-gappengine-version>
-        <lib-gcollections-version>1.0</lib-gcollections-version>
-        <lib-gdata-version>1.0</lib-gdata-version>
-        <lib-gson-version>2.3.1</lib-gson-version>
-        <lib-guava-version>26.0-jre</lib-guava-version>
-        <lib-guice-version>3.0</lib-guice-version>
-        <lib-gwt-server-version>2.3.0</lib-gwt-server-version>
-        <lib-httpclient-version>4.5.6</lib-httpclient-version>
-        <lib-httpcore-version>4.4.10</lib-httpcore-version>
-        <lib-httpmime-version>4.5.6</lib-httpmime-version>
-        <lib-io-version>2.0.1</lib-io-version>
-        <lib-jackson-version>2.9.6</lib-jackson-version>
-        <lib-javamail-version>1.4.2</lib-javamail-version>
-        <lib-javassist-version>3.18.1-GA</lib-javassist-version>
-        <lib-jaxb-ri-version>2.1.12</lib-jaxb-ri-version>
-        <lib-jaxrs-api-version>2.0</lib-jaxrs-api-version>
-        <lib-jsr311-version>1.1.1</lib-jsr311-version>
-        <lib-javax-inject-version>1</lib-javax-inject-version>
-        <lib-jcip-annotations-version>1.0</lib-jcip-annotations-version>
-        <lib-jdom-version>1.1</lib-jdom-version>
-        <lib-jettison-version>1.3.5</lib-jettison-version>
-        <lib-jetty-version>9.4.11.v20180605</lib-jetty-version>
-        <lib-jibx-version>1.2.5</lib-jibx-version>
-        <lib-joda-time-version>2.3</lib-joda-time-version>
-        <lib-json4s-version>3.2.4</lib-json4s-version>
-        <lib-json-version>20160212</lib-json-version>
-        <lib-jsslutils-version>1.0.5</lib-jsslutils-version>
-        <lib-junit-version>4.11</lib-junit-version>
-        <lib-lang-version>3.6</lib-lang-version>
-        <lib-log4j-version>1.2.17</lib-log4j-version>
-        <lib-logging-version>1.1.3</lib-logging-version>
-        <lib-lucene-version>4.6.0</lib-lucene-version>
-        <lib-mime4j-version>0.7.2</lib-mime4j-version>
-        <lib-mongodb-version>2.11.3</lib-mongodb-version>
-        <lib-nekohtml-version>1.9.19</lib-nekohtml-version>
-        <lib-oauth-version>20100527</lib-oauth-version>
-        <lib-openid4java-version>0.9.6</lib-openid4java-version>
-        <lib-osgi-version>4.0.0</lib-osgi-version>
-        <lib-pool-version>1.5.6</lib-pool-version>
-        <lib-protobuf-version>2.2.0</lib-protobuf-version>
-        <lib-raml-version>0.8.19</lib-raml-version>
-        <lib-resteasy-version>3.6.0.Final</lib-resteasy-version>
-        <lib-rome-version>1.0</lib-rome-version>
-        <lib-scala-version>2.9.1</lib-scala-version>
-        <lib-sdc-version>1.3.rc2</lib-sdc-version>
-        <lib-servlet-version>3.1.0</lib-servlet-version>
-        <lib-simple-version>5.1.6</lib-simple-version>
-        <lib-simple-xml-version>2.7.1</lib-simple-xml-version>
-        <lib-slf4j-version>1.7.2</lib-slf4j-version>
-        <lib-snakeyaml-version>1.18</lib-snakeyaml-version>
-        <lib-solr-version>7.4.0</lib-solr-version>
-        <lib-spring-version>3.2.8.RELEASE</lib-spring-version>
-        <lib-stax2-version>3.1.4</lib-stax2-version>
-        <lib-swagger-version>1.5.3-M1</lib-swagger-version>
-        <lib-testng-version>6.8.7</lib-testng-version>
-        <lib-thymeleaf-version>2.1.2.RELEASE</lib-thymeleaf-version>
-        <lib-tika-version>1.18</lib-tika-version>
-        <lib-velocity-version>2.0</lib-velocity-version>
-        <lib-woodstock-core-version>4.3.0</lib-woodstock-core-version>
+        <aopalliance.version>1.0</aopalliance.version>
+        <bloat.version>1.0</bloat.version>
+        <cglib.version>2.2</cglib.version>
+        <codec.version>1.16.0</codec.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
+        <dbcp.version>1.4</dbcp.version>
+        <e4.version>0.12.RC1</e4.version>
+        <emf.version>2.28.0</emf.version>
+        <emf-ecore-xmi.version>2.18.0</emf-ecore-xmi.version>
+        <fileupload.version>1.5</fileupload.version>
+        <freemarker.version>2.3.32</freemarker.version>
+        <gappengine.version>1.9.98</gappengine.version>
+        <gcollections.version>1.0</gcollections.version>
+        <gdata.version>1.0</gdata.version>
+        <gson.version>2.10.1</gson.version>
+        <guava.version>33.0.0-jre</guava.version>
+        <guice.version>4.2.3</guice.version>
+        <gwt-server.version>2.10.0</gwt-server.version>
+        <httpclient.version>4.5.14</httpclient.version>
+        <httpcore.version>4.4.16</httpcore.version>
+        <httpmime.version>4.5.14</httpmime.version>
+        <io.version>2.15.1</io.version>
+        <jackson.version>2.9.10</jackson.version>
+        <javamail.version>1.4.7</javamail.version>
+        <javassist.version>3.18.1-GA</javassist.version>
+        <jaxb-ri.version>2.3.9</jaxb-ri.version>
+        <jaxrs-api.version>2.1.1</jaxrs-api.version>
+        <jsr311.version>1.1.1</jsr311.version>
+        <javax-inject.version>1</javax-inject.version>
+        <jcip-annotations.version>1.0</jcip-annotations.version>
+        <jdom.version>1.1</jdom.version>
+        <jettison.version>1.3.5</jettison.version>
+        <jetty.version>9.4.54.v20240208</jetty.version>
+        <jibx.version>1.4.2</jibx.version>
+        <joda-time.version>2.12.5</joda-time.version>
+        <json4s.version>3.2.4</json4s.version>
+        <json.version>20240205</json.version>
+        <jsslutils.version>1.0.5</jsslutils.version>
+        <junit.version>4.13.2</junit.version>
+        <lang.version>3.14.0</lang.version>
+        <log4j.version>1.2.17</log4j.version>
+        <logging.version>1.3.0</logging.version>
+        <lucene.version>4.10.4</lucene.version>
+        <mime4j.version>0.8.1</mime4j.version>
+        <mongodb.version>2.11.3</mongodb.version>
+        <nekohtml.version>1.9.22</nekohtml.version>
+        <oauth.version>20100527</oauth.version>
+        <openid4java.version>0.9.6</openid4java.version>
+        <osgi.version>4.3.1</osgi.version>
+        <pool.version>1.6</pool.version>
+        <protobuf.version>2.2.0</protobuf.version>
+        <raml.version>0.8.40</raml.version>
+        <resteasy.version>3.15.6.Final</resteasy.version>
+        <rome.version>1.0</rome.version>
+        <scala.version>2.9.3</scala.version>
+        <sdc.version>1.3.rc2</sdc.version>
+        <servlet.version>3.1.0</servlet.version>
+        <simple.version>5.1.6</simple.version>
+        <simple-xml.version>2.7.1</simple-xml.version>
+        <slf4j.version>1.7.36</slf4j.version>
+        <snakeyaml.version>1.33</snakeyaml.version>
+        <solr.version>7.7.3</solr.version>
+        <spring.version>3.2.18.RELEASE</spring.version>
+        <stax2.version>3.1.4</stax2.version>
+        <swagger.version>1.5.3-M1</swagger.version>
+        <testng.version>7.5.1</testng.version>
+        <thymeleaf.version>2.1.6.RELEASE</thymeleaf.version>
+        <tika.version>1.28.5</tika.version>
+        <velocity.version>2.3</velocity.version>
+        <woodstock-core.version>4.3.0</woodstock-core.version>
     </properties>
 
     <profiles>
@@ -383,18 +383,19 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>${lib-junit-version}</version>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.core</artifactId>
-            <version>4.0.0</version>
+            <version>${osgi.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.compendium</artifactId>
-            <version>4.0.0</version>
+            <version>${osgi.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
